@@ -5,7 +5,12 @@ This repository optimizes a set of compounds using a genetic algorithm. Furtherm
 ---
 
 ## Publication
-Not yet.
+### preprint
+Rigorous Evaluation of Predictive Toxicity Models by Multi-Objective Optimization of Reference Compound Lists Using Genetic Algorithms  
+https://arxiv.org/abs/2505.07140  
+
+### peer-reviewed publication
+not yet
 
 ---
 
