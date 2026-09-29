@@ -45,6 +45,28 @@ The project is organized into the following main directories:
 
 ---
 
+## Data sources
+
+The JaCVAM reference compound sets were obtained from the validation documents listed in Supplementary Table 1 of the manuscript and available through the Japanese Center for the Validation of Alternative Methods (JaCVAM): [https://www.jacvam.go.jp/](https://www.jacvam.go.jp/)
+
+Acute oral toxicity and developmental and reproductive toxicity data were obtained from the Integrated Chemical Environment (ICE): [https://ice.ntp.niehs.nih.gov/downloads/DataonNICE/](https://ice.ntp.niehs.nih.gov/downloads/DataonNICE/)
+
+The ICE input files used in the preprocessing notebooks were:
+
+- `Acute_Oral_Toxicity.xlsx`
+- `DART.xlsx`
+
+Endocrine-related toxicity data were obtained from the Tox21 resources described in the manuscript and accessed through the corresponding TDC/Tox21 data resources:
+
+- Therapeutics Data Commons: [https://tdcommons.ai/single_pred_tasks/tox/](https://tdcommons.ai/single_pred_tasks/tox/)
+- Tox21 Data and Tools: [https://tox21.gov/data-and-tools/](https://tox21.gov/data-and-tools/)
+
+Endocrine-related assay data were derived from Tox21 assay records included in the U.S. EPA ToxCast invitrodb data release: [https://www.epa.gov/comptox-tools/exploring-toxcast-data](https://www.epa.gov/comptox-tools/exploring-toxcast-data)
+
+Chemical structures were retrieved using the PubChem API as described in the manuscript. The processed assay-specific datasets used in the analyses are provided in this repository.
+
+---
+
 ## Authors
 
 - **Yohei Ohto** - Main contributor  
